@@ -13,23 +13,35 @@
 </head>
 
 <body>
-    <header>
-        <h1>Blackjack</h1>
+    <header class="titulo">
+        Blackjack
     </header>
-    <main>
-        <section class="main-buttons">
-            <button class="NewGame">Nuevo juego</button>
-            <button class="NewCard">Pedir carta</button>
-            <button class="Stop">Detener</button>
-        </section>
-        <section class="main-player">
-            <div class="player-points">
-                <h2>Jugador 1: <span class="points">0</span></h2>
+    <div class="row mt-2">
+        <div class="col text-center">
+            <button class="btn btn-danger">Nuevo Juego</button>
+            <button class="btn btn-primary">Pedir Carta</button>
+            <button class="btn btn-primary">Detener</button>
+        </div>
+    </div>
+    <div class="row container">
+        <div class="col">
+            <h1>Jugador 1 - <small>0</small></h1>
+            <div class="jugador-cartas">
+                <img class="carta" src="./assets/cartas/2C.png" alt="">
+                <img class="carta" src="./assets/cartas/2C.png" alt="">
+                <img class="carta" src="./assets/cartas/2C.png" alt="">
+                <img class="carta" src="./assets/cartas/2C.png" alt="">
             </div>
-            <div class="player-cards"></div>
-            <div></div>
-        </section>
-    </main>
+        </div>
+    </div>
+    <div class="row container">
+        <div class="col">
+            <h1>Computadora - <small>0</small></h1>
+            <div class="jugador-cartas">
+                <img class="carta" src="./assets/cartas/2C.png" alt="">
+            </div>
+        </div>
+    </div>
     <script src="js/juego.js"></script>
 </body>
 
