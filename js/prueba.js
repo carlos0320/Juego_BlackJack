@@ -1,13 +1,5 @@
 let array = ['a', 'b', 'c', 'd', 'e', 'f', 'g', 'h', 'i', 'j', 'f', 'a', 'b', 'c', 'd', ];
 
-function buscar(array, aleatorio) {
-
-    let existeElemento = array.some(elemento => {
-        return (elemento === aleatorio);
-    });
-    return existeElemento;
-
-}
 
 function revolverArray(array) {
 
