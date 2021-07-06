@@ -5,6 +5,11 @@ body {
     color: white;
 }
 
+.instructions-title{
+    font-weight: bold;
+    font-size: 16px;
+}
+
 .titulo {
     text-align: center;
     background-color: #141414;
